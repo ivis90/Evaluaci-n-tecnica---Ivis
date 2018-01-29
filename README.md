@@ -34,62 +34,99 @@ disponibles.)
 ### 1.WebDriverFactory.
 
 Localizar el archivo chromedriver y configurar las propiedades del sistema. 
+
 Inicializar driver.
+
 Maximizar la página.
+
 Ir a la url deseada.
+
 Cerrar Popup.
 
 ### 2.BookingFlight
 
 Seleccionar la pestaña Vuelos.
+
 Limpiar el campo origen que carga por defecto el sitio.
+
 Escribir origen deseado.
-Esperar que aparezca las lista de aeropuertos..
+
+Esperar que aparezca las lista de aeropuertos.
+
 Seleccionar de la lista el aeropuerto deseado de origen.
+
 Escribir destino deseado.
-Esperar que aparezca las lista de aeropuertos..
+
+Esperar que aparezca las lista de aeropuertos.
+
 Seleccionar de la lista el aeropuerto deseado de destino.
+
 Seleccionar fecha de ida.
+
 Seleccionar fecha de regreso.
+
 Hacer click en Buscar.
+
 Validar que la página de los vuelos correspondiente sea la búsqueda.
 
 #### . Buscar vuelo mayor precio
 
 Realizar búsqueda de un vuelo.
+
 Obtener los vuelos que aparezcan en la primera pestaña.
+
 Crear lista con los precios de los vuelos visibles en la primera pestaña.
+
 Buscar el mayor precio de todos.
+
 Hacer click en comprar  el vuelo de mayor precio.
+
 Validar que redirecciona a una nueva página.
+
 Validar la visibilidad de las secciones: Pasajeros, Datos para emisión de la factura, Información de contacto.
 
 ### 3. BookingHotel
 
 Seleccionar la pestaña Hoteles.
+
 Escribir destino deseado.
+
 Esperar que aparezca las lista de ciudades.
+
 Seleccionar de la lista de ciudades la ciudad destino deseada.
+
 Seleccionar la fecha de entrada.
+
 Seleccionar la fecha de salida.
+
 Seleccionar 1 habitación con dos adultos y un menor de 12 años.
+
 Hacer click en Buscar.
+
 Esperar la página de hoteles disponibles según los datos deseados.
+
 Filtrar los hoteles 5 estrellas.
+
 Seleccionar el hotel de menor precio.
+
 Hacer click para ver detalles del hotel.
+
 Validar que abra una nueva pestaña con los detalles del hotel.
+
 Validar la visibilidad de la sección habitaciones disponibles.
 
 #### . Capturar fechas de entrada y salidas del hotel.
 
 Obtener fecha actual del sistema.
+
 Crear una fecha de entrada que sea la fecha actual del sistema más 10 días.
+
 Crear una fecha de salida que sea la fecha de entrada más 3 días.
 
 #### . Obtener dia y mes de la fecha de entrada y salida del hotel.
 
 Separar las fechas obtenidas anteriormente utilizando el método split de java.
+
 Guardar los valores dia y mes en distintas variables.
 
 
