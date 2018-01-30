@@ -1,5 +1,6 @@
 # Evaluacion tecnica - Ivis Leydis Rodriguez Cabrera
-QA Automation
+# QA Automation
+
 Para la construcción del proyecto realicé un estudio del funcionamiento del sitio Despegar.com.ar, principalmente de las funcionalidades Buscar un vuelo y Reservar un hotel; además una evaluación de las tecnologías existentes para pruebas automatizadas seleccionando Eclipse como IDE(Integrated Development Enviroment), Selenium Webdriver con el navegador Chrome, Java como lenguaje de programación, las librerías JUnit de Maven y TestNG.
 
 ## Estructura del proyecto
